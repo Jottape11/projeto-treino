@@ -1,0 +1,99 @@
+/* Arquivo styles.css */
+
+/* Cores */
+body {
+    background-color: #f0f0f0; /* Cor de fundo para o corpo */
+}
+
+header {
+    background-color: #333; /* Cor de fundo para o cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+}
+
+nav ul li a {
+    color: #fff; /* Cor dos links no menu de navegação */
+}
+
+section {
+    background-color: #fff; /* Cor de fundo para as seções */
+    color: #333; /* Cor do texto nas seções */
+}
+
+footer {
+    background-color: #333; /* Cor de fundo para o rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+}
+
+/* Transições */
+nav ul li a {
+    transition: color 0.3s; /* Transição suave de cor para os links */
+}
+
+nav ul li a:hover {
+    color: #000000; /* Mudança de cor ao passar o mouse sobre os links */
+}
+
+footer {
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para o rodapé */
+}
+
+footer:hover {
+    background-color: #555; /* Mudança de cor ao passar o mouse sobre o rodapé */
+}
+
+/* Estilo para o link ativo no menu de navegação */
+nav ul li a.active {
+    font-weight: bold;
+}
+
+/* Estilos para as colunas de botões */
+#botao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#botao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #555;
+    border: 1px solid #555;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #000000;
+}
+
+/* Estilos adicionais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
